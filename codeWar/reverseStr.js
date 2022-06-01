@@ -8,7 +8,7 @@ Complete the solution so that it reverses the string passed into it.
 function solution(str){
     return str.split('').reverse().join('');
   }
- //or
+ //or const solution = str => str.split('').reverse().join('');
  
   // Step 1. Use the split() method to return a new array
   var splitString = str.split(""); // var splitString = "hello".split("");
