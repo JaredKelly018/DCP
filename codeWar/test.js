@@ -2,12 +2,12 @@ function greet(name){
   if (name === 'Johnny'){
     return "Hello, my love!";
   } else {
-     return "Hello, " + name + "!";
+     return "Hello,  " + name + "!";
   }
   }
   
   function makeNegative(num) {
-    return num < 0 ? num : -num;
+    return num < 0 ? num :  -num; 
   }  
 
  /* function makeNegative(num) {
@@ -17,4 +17,4 @@ function greet(name){
       else {
           return num;
       }
-  } */
+  } */  
