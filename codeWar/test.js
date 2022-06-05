@@ -17,4 +17,9 @@ function greet(name){
       else {
           return num;
       }
-  } */  
+      
+  } 
+  
+  const removeChar = str => {
+    return str.slice(1, - 1)
+}*/  
