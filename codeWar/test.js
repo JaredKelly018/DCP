@@ -23,3 +23,16 @@ function greet(name){
   const removeChar = str => {
     return str.slice(1, - 1)
 }*/  
+
+
+/*
+1.
+2.
+3.
+4.
+
+
+
+
+
+*/
