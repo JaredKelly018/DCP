@@ -50,3 +50,7 @@ function basicOp(operation, value1, value2)
   }
 
 }
+
+function noSpace(x){
+  return x.split(' ').join('')
+ }
