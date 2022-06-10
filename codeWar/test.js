@@ -70,3 +70,6 @@ function highAndLow(numbers){
   numbers = numbers.split(' ');
   return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
 }
+
+//set is important
+const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
