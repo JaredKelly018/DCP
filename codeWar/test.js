@@ -59,3 +59,14 @@ function noSpace(x){
  function hero(bullets, dragons){
   return bullets >= dragons * 2
 }
+
+function findNeedle(haystack) {
+  // your code here
+ const needleLocation = haystack.indexOf('needle');
+  return `found the needle at position  ${needleLocation}`
+}
+
+function highAndLow(numbers){
+  numbers = numbers.split(' ');
+  return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+}
