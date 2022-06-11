@@ -73,3 +73,19 @@ function highAndLow(numbers){
 
 //set is important
 const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
+
+function bmi(weight, height) {
+  const userBmi = weight/height**2;
+
+  if (userBmi <= 18.5){
+    return 'Underweight'
+  }else if (userBmi<=25.0 && userBmi >18.5){
+    return 'Normal'
+  }else if (userBmi <= 30&& userBmi >20){
+    return 'Overweight'
+  }else if (userBmi > 30){
+    return 'Obese'
+  }
+  
+}
+
