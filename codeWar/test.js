@@ -89,3 +89,7 @@ function bmi(weight, height) {
   
 }
 
+//https://www.programmingbasic.com/multiply-all-numbers-in-array-javascript reduce mthod call back functiuon
+function grow(x){
+  return x.reduce((a,b) => a*b)
+ }
