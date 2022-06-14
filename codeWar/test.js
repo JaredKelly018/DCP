@@ -93,3 +93,10 @@ function bmi(weight, height) {
 function grow(x){
   return x.reduce((a,b) => a*b)
  }
+
+ function greet() {
+  return 'hello world!'
+}
+
+//or 
+const greet= () =>"hello world!";
