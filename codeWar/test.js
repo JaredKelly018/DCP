@@ -118,3 +118,5 @@ function abbrevName(name){
 function friend(friends){
   return friends.filter(n => n.length === 4)
 }
+
+const friend = friends => friends.filter(friend => friend.length == 4);
