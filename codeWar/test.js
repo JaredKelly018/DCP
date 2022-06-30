@@ -121,3 +121,12 @@ function friend(friends){
   
 
 const friend = friends =>  friends.filter(friend => friend.length == 4);   
+
+
+function greet (name, owner) {
+  return `Hello ${owner? 'boss': 'guest'}`
+}
+
+function greet (name, owner) {
+  return `Hello ${name==owner?'boss':'guest '}`
+}
