@@ -130,3 +130,11 @@ function greet (name, owner) {
 function greet (name, owner) {
   return `Hello ${name==owner?'boss':'guest  '}`
 }
+
+function countBy(x, n) {
+  var z = [];
+  for (i = 1; i <= n; i++) {
+      z.push(x * i);
+  }
+  return z;
+}
