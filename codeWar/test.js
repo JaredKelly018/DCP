@@ -138,3 +138,11 @@ function countBy(x, n) {
   }
   return z;
 }
+
+function enough(cap, on, wait) {
+  // your code here
+  if ((on + wait)<= cap)
+    return 0
+  else if ((on + wait)>= cap)
+    return (on+wait)- cap
+}
