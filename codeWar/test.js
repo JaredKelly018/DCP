@@ -84,7 +84,7 @@ function bmi(weight, height) {
   }else if (userBmi <= 30&& userBmi >20){
     return 'Overweight'
   }else if (userBmi > 30){
-    return 'Obeses'
+    return 'Obeses '
   }
   
 }
