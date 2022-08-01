@@ -146,3 +146,5 @@ function enough(cap, on, wait) {
   else if ((on + wait)>= cap)
     return (on+wait)- cap
 }
+
+// I just want to die how do I live in a world I hate
