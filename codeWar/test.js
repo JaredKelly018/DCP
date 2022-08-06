@@ -1,11 +1,4 @@
-function greet(name){
-  if (name === 'Johnny'){
-    return "Hello, my love!";
-  } else {
-     return "Hello,  " + name + "!";
-  }
-  }
-  
+ 
   function makeNegative(num) {
     return num < 0 ? num :  -num; 
   }  
@@ -147,4 +140,12 @@ function enough(cap, on, wait) {
     return (on+wait)- cap
 }
 
-// I just want to die how do I live in a world I hate
+// lets go
+
+function greet(name){
+  if(name === "Johnny"){
+    return "Hello, my love!";
+} else{
+    return `Hello, ${name}!`;
+}
+}
