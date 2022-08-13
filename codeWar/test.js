@@ -177,3 +177,5 @@ var summation = function (num) {
   
   return result;
 }
+
+// lost
