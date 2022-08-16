@@ -207,3 +207,8 @@ const rps = (p1, p2) => {
     return 'Draw'
   }
 };
+
+//Your goal is to create a function that removes the first and last characters of a string. 
+function removeChar(str) {
+  return str.slice(1, -1);
+}
