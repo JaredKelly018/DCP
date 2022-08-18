@@ -208,7 +208,14 @@ const rps = (p1, p2) => {
   }
 };
 
-//Your goal is to create a function that removes the first and last characters of a string. 
-function removeChar(str) {
-  return str.slice(1, -1);
+//You get an array of numbers, return the sum of all of the positives ones.
+
+function positiveSum(arr) {
+  var total = 0;    
+  for (i = 0; i < arr.length; i++) {    // setup loop to go through array of given length
+    if (arr[i] > 0) {                   // if arr[i] is greater than zero
+      total += arr[i];                  // add arr[i] to total
+    }
+  }
+  return total;                         // return total
 }
